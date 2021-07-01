@@ -1,0 +1,24 @@
+@import "~antd/dist/antd.less";
+
+.ant-tabs {
+  & .ant-tabs-nav {
+    margin-bottom: 0;
+    &::before {
+      display: none;
+    }
+    & .ant-tabs-tab {
+      background: rgba(255, 255, 255, 0.6);
+      border: none;
+      padding-left: 2rem !important;
+      padding-right: 2rem !important;
+      font-weight: bold;
+      &.ant-tabs-tab-active {
+        background: rgba(255, 255, 255, 0.9);
+      }
+    }
+  }
+  & .ant-tabs-content-holder {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+  }
+}
