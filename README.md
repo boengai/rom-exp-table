@@ -1,6 +1,6 @@
 # rom-exp-table
 
-Just trying to use Heroku branch trigger
+Just trying to use Heroku branch trigger. So you can access that stupid stuff [here](https://rom-exp-table.herokuapp.com).
 
 # Getting Started with Create React App
 
